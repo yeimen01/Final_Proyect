@@ -1,0 +1,79 @@
+﻿@page
+@model MarioKart.Pages.RegistroDeClientesModel
+@{
+    ViewData["Title"] = "Registro Clientes";
+}
+
+<h1>Listado de Clientes</h1>
+
+<div>
+    <div class="table-responsive">
+        <h5>Cantidad de Clientes: @Model.Clientes.Count</h5>
+        <table id="tableUser" class="display">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Cedula</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Sexo</th>
+                    <th>Detalle</th>
+                    <th>Editar</th>
+                    <th>Borrar</th>
+                    <th>Vehiculo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Cliente in Model.Clientes)
+                {
+                    <tr>
+                        <td>@Cliente.Id_Cliente</td>
+                        <td>@Cliente.Cedula</td>
+                        <td>@Cliente.Nombre</td>
+                        <td>@Cliente.Apellido</td>
+                        <td>@Cliente.Email</td>
+                        <td>@Cliente.Sexo</td>
+                        <td><a asp-page="./DetalleCliente" asp-route-id="@Cliente.Id_Cliente" class="btn btn-primary" style="cursor:pointer"><i class='fa fa-eye'></i></a></td>
+                        <td><a asp-page="./EditarCliente" asp-route-id="@Cliente.Id_Cliente" class="btn btn-warning" style="cursor:pointer"><i class='fa fa-edit'></i></a></td>
+                        <td><a asp-page="./BorrarCliente" asp-route-id="@Cliente.Id_Cliente" class="btn btn-danger" style="cursor:pointer"><i class='fa fa-trash'></i></a></td>
+                        <td><a asp-page="./CrearVehiculo" asp-route-id="@Cliente.Id_Cliente" class="btn btn-Sucess" style="cursor:pointer"><i class='fa fa-Car'></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#tableUser').dataTable({
+                "responsive": true,
+                "autoWidth": false,
+                "lengthMenu": [10, 15, 20],
+                "language": {
+                    "sProcessing": "Procesando...",
+                    "sLengthMenu": "Mostrar _MENU_ registros",
+                    "sZeroRecords": "No se encontraron resultados",
+                    "sEmptyTable": "Ningún dato disponible en esta tabla",
+                    "sInfo": "Registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                    "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                    "sInfoPostFix": "",
+                    "sSearch": "Buscar:",
+                    "sUrl": "",
+                    "sInfoThousands": ",",
+                    "sLoadingRecords": "Cargando...",
+                    "oPaginate": {
+                        "sFirst": "Primero",
+                        "sLast": "Último",
+                        "sNext": "Siguiente",
+                        "sPrevious": "Anterior"
+                    }
+                }
+            });
+        });
+    </script>
+}

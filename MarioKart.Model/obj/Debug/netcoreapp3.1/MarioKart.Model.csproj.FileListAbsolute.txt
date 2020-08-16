@@ -1,0 +1,9 @@
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\bin\Debug\netcoreapp3.1\MarioKart.Model.deps.json
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\bin\Debug\netcoreapp3.1\MarioKart.Model.dll
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\bin\Debug\netcoreapp3.1\MarioKart.Model.pdb
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.AssemblyInfo.cs
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.dll
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Model\obj\Debug\netcoreapp3.1\MarioKart.Model.pdb

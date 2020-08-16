@@ -1,0 +1,12 @@
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\bin\Debug\netcoreapp3.1\MarioKart.Data.deps.json
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\bin\Debug\netcoreapp3.1\MarioKart.Data.dll
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\bin\Debug\netcoreapp3.1\MarioKart.Data.pdb
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\bin\Debug\netcoreapp3.1\MarioKart.Model.dll
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\bin\Debug\netcoreapp3.1\MarioKart.Model.pdb
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.AssemblyInfo.cs
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.csproj.CopyComplete
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.dll
+C:\Users\Dell\source\repos\MarioKart\MarioKart.Data\obj\Debug\netcoreapp3.1\MarioKart.Data.pdb

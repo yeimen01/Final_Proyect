@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarioKart", "MarioKart\MarioKart.csproj", "{7BCCCBC1-F95E-4C3C-A2E1-2EB521E50732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarioKart.Model", "MarioKart.Model\MarioKart.Model.csproj", "{E914CDD6-A2B4-4EB6-8167-719FA95D7E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioKart.Data", "MarioKart.Data\MarioKart.Data.csproj", "{B7590BD9-9C66-4CAA-9ADD-861217D6C7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kkkkkkkkkkkkkkkkk", "kkkkkkkkkkkkkkkkk\kkkkkkkkkkkkkkkkk.csproj", "{24CF22AD-A847-469A-9437-8759A0DF370F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCCCBC1-F95E-4C3C-A2E1-2EB521E50732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCCCBC1-F95E-4C3C-A2E1-2EB521E50732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCCCBC1-F95E-4C3C-A2E1-2EB521E50732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCCCBC1-F95E-4C3C-A2E1-2EB521E50732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E914CDD6-A2B4-4EB6-8167-719FA95D7E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E914CDD6-A2B4-4EB6-8167-719FA95D7E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E914CDD6-A2B4-4EB6-8167-719FA95D7E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E914CDD6-A2B4-4EB6-8167-719FA95D7E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7590BD9-9C66-4CAA-9ADD-861217D6C7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7590BD9-9C66-4CAA-9ADD-861217D6C7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7590BD9-9C66-4CAA-9ADD-861217D6C7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7590BD9-9C66-4CAA-9ADD-861217D6C7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CF22AD-A847-469A-9437-8759A0DF370F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CF22AD-A847-469A-9437-8759A0DF370F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CF22AD-A847-469A-9437-8759A0DF370F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CF22AD-A847-469A-9437-8759A0DF370F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEE07229-4F7A-4302-B127-01CF3357A89E}
+	EndGlobalSection
+EndGlobal
